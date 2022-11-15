@@ -1,4 +1,3 @@
-////////////////////////////////////
 // Basic Operators
 // Math operators
 const now = 2037;

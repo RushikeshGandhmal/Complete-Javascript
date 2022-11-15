@@ -1,4 +1,4 @@
-////////////////////////////////////
+
 // Data Types
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
