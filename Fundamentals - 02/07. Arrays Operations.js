@@ -1,5 +1,5 @@
 // Basic Array Operations (Methods)
-const friends = ['Michael', 'Steven', 'Peter'];
+const friends = ['Michael', 'Steven', 'Jay'];
 
 // Add elements
 const newLength = friends.push('Jay');
