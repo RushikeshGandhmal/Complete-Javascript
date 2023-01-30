@@ -12,10 +12,13 @@ console.log(jonasNew);
 
 console.log(`Just a regular string...`);
 
+// With single or double quotes for multiple line string
 console.log('String with \n\
 multiple \n\
-lines');
+lines');  
 
+
+// With template literals for multiple line string (Easy one)
 console.log(`String
 multiple
 lines`);
