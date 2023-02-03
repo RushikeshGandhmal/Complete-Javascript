@@ -2,7 +2,7 @@
 const friends = ['Michael', 'Steven', 'Peter'];
 
 // Add elements
-const newLength = friends.push('Jay');
+const newLength = friends.push('Jay'); // push function returns lenght of a array after adding the new elements
 console.log(friends);
 console.log(newLength);
 
