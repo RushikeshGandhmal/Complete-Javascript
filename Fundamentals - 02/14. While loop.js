@@ -1,4 +1,7 @@
 // The while Loop
+
+// If you want the loop to break based on a condition other than the number of times it runs, you should use a while loop.
+
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 }
