@@ -10,7 +10,7 @@ logger();
 logger();
 logger();
 
-function fruitProcessor(apples, oranges) {
+function fruitProcessor(apples, oranges = 4) {
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
   return juice;
 }
@@ -18,7 +18,7 @@ function fruitProcessor(apples, oranges) {
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);
 
-const appleOrangeJuice = fruitProcessor(2, 4);
+const appleOrangeJuice = fruitProcessor(2);
 console.log(appleOrangeJuice);
 
 const num = Number('23');
