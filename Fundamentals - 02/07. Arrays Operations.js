@@ -31,3 +31,7 @@ console.log(friends.includes(23)); // true
 if (friends.includes('Steven')) { //true
   console.log('You have a friend called Steven');
 }
+
+array = [ 'India', 'Mayanmar', 'Nepal'];
+array['Nepal'] = "Kerela"; 
+console.log(array); //[ 'India', 'Mayanmar', 'Nepal', Nepal: 'Kerela' ]
