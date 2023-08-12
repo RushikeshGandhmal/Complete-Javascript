@@ -15,12 +15,12 @@ console.log(fruitProcessor(2, 3));
 
 ///////////////////////////////////////
 // Reviewing Functions
-const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+const calcAge = function (birthYear) {
+  return 2037 - birthYear;
 }
 
-const yearsUntilRetirement = function (birthYeah, firstName) {
-  const age = calcAge(birthYeah);
+const yearsUntilRetirement = function (birthYear, firstName) {
+  const age = calcAge(birthYear);
   const retirement = 65 - age;
 
   if (retirement > 0) {
