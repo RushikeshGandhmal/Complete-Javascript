@@ -33,5 +33,5 @@ if (friends.includes('Steven')) { //true
 }
 
 array = [ 'India', 'Mayanmar', 'Nepal'];
-array['Nepal'] = "Kerela"; 
+array['Nepal'] = "Kerala"; 
 console.log(array); //[ 'India', 'Mayanmar', 'Nepal', Nepal: 'Kerela' ]
