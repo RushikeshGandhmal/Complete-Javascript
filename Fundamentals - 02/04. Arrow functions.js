@@ -1,4 +1,5 @@
 // Arrow functions
+// Arrow function doesn't have this keyword.
 
 const calcAge3 = birthYeah => 2037 - birthYeah;
 const age3 = calcAge3(1991);
