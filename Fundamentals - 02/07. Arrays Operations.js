@@ -34,4 +34,4 @@ if (friends.includes('Steven')) { //true
 
 array = [ 'India', 'Mayanmar', 'Nepal'];
 array['Nepal'] = "Kerala"; 
-console.log(array); //[ 'India', 'Mayanmar', 'Nepal', Nepal: 'Kerela' ]
+console.log(array); //[ 'India', 'Mayanmar', 'Nepal', Nepal: 'Kerala' ]
