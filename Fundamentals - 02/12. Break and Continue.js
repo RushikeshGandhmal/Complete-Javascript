@@ -21,7 +21,7 @@ for (let i = 0; i < jonas.length; i++) {
 
   // Filling types array
   // types[i] = typeof jonas[i];
-  types.push(typeof jonas[i]);
+  types.push(typeof jonas[i]);  // alternative
 }
 
 console.log(types);
