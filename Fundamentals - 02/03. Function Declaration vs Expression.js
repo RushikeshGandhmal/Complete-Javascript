@@ -1,14 +1,14 @@
 // Function Declarations vs. Expressions
 
 // Function declaration
-function calcAge1(birthYeah) {
-  return 2037 - birthYeah;
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
 }
 const age1 = calcAge1(1991);
 
 // Function expression
-const calcAge2 = function (birthYeah) {
-  return 2037 - birthYeah;
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
 }
 const age2 = calcAge2(1991);
 
