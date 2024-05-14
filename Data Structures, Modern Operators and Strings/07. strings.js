@@ -29,3 +29,24 @@ const planeName = "A320neo";
 console.log(planeName.includes("A320")); // true
 console.log(planeName.startsWith("A")); // true
 console.log(planeName.endsWith("o")); // true
+
+// Split and Join:
+// The **`split()`** method divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array.
+
+const sentence = "Hello world, welcome to programming!";
+const words = sentence.split(" "); // Splitting by space
+console.log(words); // ["Hello", "world,", "welcome", "to", "programming!"]
+
+// Join
+const newSentence = words.join("-"); // Joining with hyphen as separator
+console.log(newSentence); // "Hello-world,-welcome-to-programming!"
+
+// padding
+const maskCreditCard = function (number) {
+  const str = number + "";
+
+  return str.slice(-4).padStart(str.length, "*");
+};
+
+maskCreditCard(345456564764576); // ***********4576
+maskCreditCard("3457645475645459234"); //***************9234
